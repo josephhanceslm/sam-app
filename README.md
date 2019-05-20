@@ -1,5 +1,10 @@
 # sam-app
 
+1) Build: sam build
+2) Run Locally: sam local start-api --port 9001
+3) Package: sam package --output-template-file packaged.yaml --s3-bucket lambda-bucket-jwh20
+4) Deploy: sam deploy --template-file packaged.yaml --stack-name sam-app --capabilities CAPABILITY_IAM --region us-east-1
+
 This is a sample template for sam-app - Below is a brief explanation of what we have generated for you:
 
 ```bash

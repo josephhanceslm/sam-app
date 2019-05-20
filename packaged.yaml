@@ -27,7 +27,7 @@ Outputs:
 Resources:
   HelloWorldFunction:
     Properties:
-      CodeUri: s3://lambda-bucket-jwh20/cbf76defea6c60720447a8d6cf9fea94
+      CodeUri: s3://lambda-bucket-jwh20/1a58c3094b457eef1f723c7045e7d588
       Environment:
         Variables:
           PARAM1: VALUE
